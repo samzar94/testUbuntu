@@ -5,19 +5,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        Estamos presentando los avances del proyecto 2
-        agregamos mas lineas de codigo
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div id="container">
+            <div id="cabecera">
+                Cabecera
+            </div>
+            <div id="post">
+                <h1>Este es el título atractivo e interesante del post</h1>
+                <p>Y este es el parrafo de inicio donde vamos a explicar las cosas increéibles que se pueden hacer con ramas</p>
+            </div>
+        </div>
       </header>
     </div>
   );

@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
       <div id="container">
             <div id="cabecera">
-                Cabecera
+                Cabecera v2
             </div>
             <div id="post">
                 <h1>Este es el título atractivo e interesante del post</h1>
